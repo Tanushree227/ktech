@@ -10,7 +10,7 @@ function MainNavigation() {
           <li><Link to='/' >Home</Link></li>
           <li><Link to='/services' >Services</Link></li>
           <li><Link to='/about' >About</Link></li>
-          <li><Link to='/signup' >Signup</Link></li>
+          <li><Link to='/signup' className={classes.badge} >Signup</Link></li>
         </ul>
       </nav>
     </header>
