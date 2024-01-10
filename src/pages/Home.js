@@ -1,7 +1,9 @@
+import Header from "../components/activities/Header";
+
 function Home()
 {
     return(
-        <div>Home Page</div>
+        <Header />
     );
 }
 
